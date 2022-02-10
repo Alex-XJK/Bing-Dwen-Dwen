@@ -16,20 +16,6 @@ turtle.circle(-45, 200)
 turtle.circle(-300, 23)
 turtle.end_fill()
 
-# Left-hand Inside
-turtle.penup()
-turtle.goto(182, 95)
-turtle.pencolor("black")
-turtle.pensize(1)
-turtle.fillcolor("black")
-turtle.begin_fill()
-turtle.setheading(95)
-turtle.pendown()
-turtle.circle(-37, 160)
-turtle.circle(-20, 50)
-turtle.circle(-200, 30)
-turtle.end_fill()
-
 # Head
 turtle.penup()
 turtle.goto(-73, 230)
@@ -106,6 +92,20 @@ turtle.pendown()
 turtle.circle(-30, 170)
 turtle.setheading(125)
 turtle.circle(150, 23)
+turtle.end_fill()
+
+# Left-hand Inside
+turtle.penup()
+turtle.goto(185, 95)
+turtle.pencolor("black")
+turtle.pensize(1)
+turtle.fillcolor("black")
+turtle.begin_fill()
+turtle.setheading(95)
+turtle.pendown()
+turtle.circle(-37, 160)
+turtle.circle(-20, 50)
+turtle.circle(-200, 30)
 turtle.end_fill()
 
 # Right-hand Inside
